@@ -18,6 +18,10 @@ Layout/AlignParameters:
 Layout/CaseIndentation:
   EnforcedStyle: end
 
+# This is disabled by default
+Layout/ClassStructure:
+  Enabled: true
+
 # A method chain with a trailing dot is able to be copy-and-pasted into a
 # console
 Layout/DotPosition:
