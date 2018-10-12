@@ -64,6 +64,11 @@ Metrics/ModuleLength:
 Rails/HttpStatus:
   Enabled: false
 
+# Sanitizing input isn't necessary in the test suite
+Rails/OutputSafety:
+  Exclude:
+    - spec/**/*
+
 # Too subtle to lint. Recommend semantic style, but avoid `end.x`.
 Style/BlockDelimiters:
   Enabled: false
