@@ -23,7 +23,7 @@ Layout/ClassStructure:
   Enabled: true
 
 # A method chain with a trailing dot is able to be copy-and-pasted into a
-# console
+# console, and comments are allowed between method calls
 Layout/DotPosition:
   EnforcedStyle: trailing
 
